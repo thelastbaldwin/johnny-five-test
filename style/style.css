@@ -1,0 +1,48 @@
+@import url('col.css');
+@import url('8cols.css');
+@import url('12cols.css');
+
+form{
+	font-size: 1.5rem;
+	padding: 0.5rem;
+}
+
+button{
+	font-size: 1.5rem;
+}
+
+h3{
+	margin: 0;
+}
+
+input[type="checkbox"]{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance: none;
+	background-color: gray;
+	height: 10%;
+}
+
+input[type="checkbox"]:checked{
+	-webkit-appearance:none;
+	-moz-appearance:none;
+	appearance: none;
+	background-color: red;
+}
+
+input[type="number"]{
+	font-size:1.5rem;
+}
+
+.kitten{
+	font-size: 0;
+	padding: 0.5rem;
+}
+
+img{
+	display: block;
+}
+
+.hidden{
+	display: none;
+}

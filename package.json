@@ -1,0 +1,19 @@
+{
+  "name": "johnny-5-socket-test",
+  "version": "0.0.0",
+  "description": "test for combining express, sockets and johnny-five api",
+  "main": "server.js",
+  "dependencies": {
+    "express": "^4.9.5",
+    "johnny-five": "^0.8.11",
+    "mustache-express": "^1.2.0",
+    "socket.io": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "steve minor",
+  "license": "ISC"
+}

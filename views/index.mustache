@@ -1,0 +1,47 @@
+<html>
+<head>
+	<title>Client Arduino Control</title>
+	<link rel="stylesheet" href="/style/style.css">
+</head>
+<body>
+	<div class="maincontent">
+		<form action="" id="controls">
+			<div class="section group">
+				<input type="checkbox" name="light0" class="col span_1_of_8"></input>
+				<input type="checkbox" name="light1" class="col span_1_of_8"></input>
+				<input type="checkbox" name="light2" class="col span_1_of_8"></input>
+				<input type="checkbox" name="light3" class="col span_1_of_8"></input>
+				<input type="checkbox" name="light4" class="col span_1_of_8"></input>
+				<input type="checkbox" name="light5" class="col span_1_of_8"></input>
+				<input type="checkbox" name="light6" class="col span_1_of_8"></input>
+				<input type="checkbox" name="light7" class="col span_1_of_8"></input>
+			</div>
+			<div class="section group">
+				<button type="button" class="col span_6_of_12 addStep">Add step</button>
+				<button type="button" class="col span_6_of_12 clearSteps">Clear</button>
+			</div>			
+			<div class="section group">
+				<label for="duration" class="col span_6_of_12">
+					<span>Duration (seconds):</span>
+				<input type="number" name="duration" id="duration">
+				</label>
+				<div id="pattern" class="col span_6_of_12">
+					<h3>Pattern: </h3>
+					<p></p>
+				</div>
+			</div>
+			<div class="section group">
+				<div class="col span_12_of_12">
+					<button type="submit">Send</button>
+				</div>
+			</div>
+		</form>
+		<div class="section group kitten">
+			<img src="http://placekitten.com/1024/768" alt="img"  class="hidden col span_12_of_12">
+		</div>
+	</div>
+	<script src="/socket.io/socket.io.js"></script>
+	<script src="/js/jquery-2.1.1.min.js"></script>
+	<script src="/js/client.js"></script>
+</body>
+</html>
